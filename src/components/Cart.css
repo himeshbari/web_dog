@@ -1,0 +1,82 @@
+/* Cart.css */
+
+.cart-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(242, 238, 238, 0.984);
+    background-color: #070707;
+    color: #fff;
+}
+
+.cart-container h1 {
+    text-decoration: underline;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.removedbutton {
+    background-color: #e4303f;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.removedbutton:hover {
+    background-color: #e55959;
+    border: 2px solid #ccc;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.paybutton {
+    background-color: green;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.paybutton:hover {
+    background-color: #92ff64;
+    border: 2px solid #ccc;
+}
+
+.success-message {
+    color: #27ae60;
+    margin-top: 10px;
+}
